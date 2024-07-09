@@ -9,11 +9,6 @@ public class Logger
     private static Logger? instance;
 
     /// <summary>
-    /// マルチスレッド環境でのシングルトンインスタンス生成を安全にするためのロックオブジェクト
-    /// </summary>
-    private static readonly object threadLock = new object();
-
-    /// <summary>
     /// ログファイルのパス
     /// </summary>
     private string logFilePath;
@@ -35,13 +30,7 @@ public class Logger
         {
             if (instance == null)
             {
-                lock (threadLock) // マルチスレッド環境で同時にインスタンス生成が行われないようにロックをかける
-                {
-                    if (instance == null)
-                    {
-                        instance = new Logger();
-                    }
-                }
+                instance = new Logger();
             }
             return instance;
         }
