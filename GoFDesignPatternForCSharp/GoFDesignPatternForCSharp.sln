@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP01_Creational_Singleton", "SingletonePattern_Singleton\DP01_Creational_Singleton.csproj", "{0A27AD79-C491-4F4A-86A8-203FD835D053}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP01_Creational_Singleton", "DP01_Creational_Singleton\DP01_Creational_Singleton.csproj", "{0A27AD79-C491-4F4A-86A8-203FD835D053}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP03_Creational_AbstractFactory", "Abstract Factory\DP03_Creational_AbstractFactory.csproj", "{82631786-1009-4524-8843-7ACB133A508B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP03_Creational_AbstractFactory", "DP03_Creational_AbstractFactory\DP03_Creational_AbstractFactory.csproj", "{82631786-1009-4524-8843-7ACB133A508B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP02_Creational_FactoryMethod", "Factory Method Pattern\DP02_Creational_FactoryMethod.csproj", "{A4C1B607-3E4F-4D27-9DCD-19CEC93875E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP02_Creational_FactoryMethod", "DP02_Creational_FactoryMethod\DP02_Creational_FactoryMethod.csproj", "{A4C1B607-3E4F-4D27-9DCD-19CEC93875E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP05_Creational_Prototype", "PrototypePattern\DP05_Creational_Prototype.csproj", "{03FC28FF-E416-420C-B9C0-1B860BEFF15A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP05_Creational_Prototype", "DP05_Creational_Prototype\DP05_Creational_Prototype.csproj", "{03FC28FF-E416-420C-B9C0-1B860BEFF15A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP06_Structural_Adapter", "AdapterPattern\DP06_Structural_Adapter.csproj", "{F3600E94-FB8F-40C3-A47B-AD76762F3648}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP06_Structural_Adapter", "DP06_Structural_Adapter\DP06_Structural_Adapter.csproj", "{F3600E94-FB8F-40C3-A47B-AD76762F3648}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP07_Structural_Bridge", "BridgePattern\DP07_Structural_Bridge.csproj", "{870656DD-674F-4E3E-9094-E3F632023ADC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP07_Structural_Bridge", "DP07_Structural_Bridge\DP07_Structural_Bridge.csproj", "{870656DD-674F-4E3E-9094-E3F632023ADC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP08_Structural_Composite", "CompositePattern\DP08_Structural_Composite.csproj", "{8E9C87B8-F165-4787-94E7-128B909A33AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP08_Structural_Composite", "DP08_Structural_Composite\DP08_Structural_Composite.csproj", "{8E9C87B8-F165-4787-94E7-128B909A33AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP04_Creational_Builder", "DP04_Creational_Builder\DP04_Creational_Builder.csproj", "{6067D229-CEB1-405C-BBF9-511D6B45F94D}"
 EndProject
