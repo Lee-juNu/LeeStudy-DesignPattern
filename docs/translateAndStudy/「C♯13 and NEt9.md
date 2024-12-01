@@ -256,6 +256,8 @@ public class MagicNumber
    private backing field は自分自身を閉じ込めたプロパティーで意図せずにクラス外で使用することを事前に防いでくれます。
 4. **変更による故障の可能性**。　既にプロパティー名に `field` を使っている場合新しい field キーワードが優先され意図してない行動をする可能性があります。C# チームからこの問題をどう対処するべきかはこの[リンク](https://github.com/dotnet/csharplang/blob/main/proposals/field-keyword.md#breaking-changes)を参照してください。 この機能は 2016 年 初めて提案されて延期になってきたのですが、延期されてきた理由の一つかもしれません
 
+### Hybrid Cache
+
 ---
 
 reduce 減らす
@@ -268,6 +270,9 @@ encapsulation カプセル化
 address ～を解決する
 Potential Breaking Change 潜在的な互換性破壊変更
 precedence 　優先順位
-proposal
-predictable
-arbitrary
+proposal 提案する
+predictable 予測可能な
+arbitrary 任意
+unified 統一された
+
+Stampede Problem キャッシュ内で特定のデータが満了されたり削除されたとき、多数のクライアント（もしくはスレッド）が同時にこのデータにリクエストを送り、処理するためにバックエンドのデータソースに**同時に接近**する
